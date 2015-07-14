@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="content/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="content/stylesheets/bootstrap-theme.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="content/stylesheets/main.css">
+    <script type="text/javascript" src="content/scripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="content/scripts/bootstrap.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <header class="container-fluid header-main background-green">
+      <div class="row">
+        <article class="col-xs-12 col-sm-6 text-left height-full">
+          <h2>LOGO <small>User</small></h2>
+        </article>
+        <nav class="col-xs-12 col-sm-6 text-right height-full">
+          <label>Cliente:<span></span></label>
+          <button type="button" class="element-image background-blue button-store no-border"></button>
+        </nav>
+      </div>
+    </header>
+    <!--end .header-main-->
+    <div class="container-fluid">
+      <div class="row">
+        <aside class="aside-main background-grey hidden-xs col-sm-3">
+          <header class="text-center page-header">
+            <h3>Menu</h3>
+          </header>
+          <article>
+            <div class="full-width text-center menu">
+              <p>Classe</p>
+              <ul class="container-fluid text-center menu-full-items menu-sub">
+                <li>Sub</li>
+                <li>Sub</li>
+                <li>Sub</li>
+              </ul>
+            </div>
+          </article>
+        </aside>
+        <!--end .aside-main-->
+        <section class="section-catalogo col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1">
+          <article class="col-xs-12 col-sm-12 article-consulta">
+            <header class="page-header">
+              <h2 class="text-left">Catálogo</h2>
+            </header>
+            <section class="row">
+              <div class="col-xs-12 col-sm-2">
+                <label>Código</label>
+                <input type="text" class="width-full" placeholder="000000">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label>Nome</label>
+                <input type="text" class="width-full" placeholder="Nome do Produto">
+              </div>
+              <div class="col-xs-12 col-sm-2">
+                <label>Ordem</label>
+                <select class="width-full">
+                  <option>Código</option>
+                  <option>Nome</option>
+                  <option>Preço</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-12 text-center">
+                <br>
+                <input type="button" class="button-main" value="PESQUISAR">
+              </div>
+            </section>
+          </article>
+          <!--end .article-consulta-->
+          <article class="col-xs-12 col-sm-12 article-result">
+            <br>
+            <table class="table table-responsive table-condensed table-result">
+              <tr>
+                <th>1</th>
+                <th>1</th>
+                <th>1</th>
+                <th>1</th>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+            </table>
+          </article>
+        <!--end .article-result-->
+        </section>
+        <!--end .section-catalogo-->
+      </div>
+    </div>
+  </body>
+</html>
