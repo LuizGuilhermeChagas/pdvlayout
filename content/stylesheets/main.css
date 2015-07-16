@@ -38,6 +38,12 @@ input:not([type='button']):focus, select:focus{border-color:#2ecc71;}
   backgorund-size:100% 100%;
   background-repeat: no-repeat;
 }
+.footer-main{
+  background-color:#7f8c8d;
+  padding: 2%;
+  position: fixed;
+  bottom: 0;
+}
 .header-main div, .header-main nav{padding:12px;}
 .height-full{height:100%}
 .menu-sub{display:none;}
